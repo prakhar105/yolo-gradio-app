@@ -1,0 +1,18 @@
+[project]
+name = "yolo-gradio-app"
+version = "0.1.0"
+description = "Training YOLO models from Gradio WebUI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.2",
+    "gradio>=5.0.2",
+    "uvicorn>=0.31.1",
+]
+
+[project.optional-dependencies]
+build = [
+    "torch>=2.4.1",
+    "torchvision>=0.1.6",
+    "ultralytics>=8.3.10",
+]
