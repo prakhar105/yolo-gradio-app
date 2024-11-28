@@ -22,3 +22,4 @@ uv sync --extra build
 ```
 uvicorn src.main:app --reload
 ```
+![Screenshot 2024-11-28 220429](https://github.com/user-attachments/assets/276fc8e2-b747-4815-90a4-910a40dfd737)
